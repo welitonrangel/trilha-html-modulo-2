@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Saúde Total - Página Principal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .wrapper { /* Um contêiner para centralizar o layout */
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: #e0e0e0;
+            height: 200px;
+            text-align: center;
+        }
+        .header img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .main-content { /* Container para o menu e o conteúdo */
+            display: flex;
+        }
+        .nav { /* Antigo .menu */
+            width: 200px;
+            background-color: #f0f0f0;
+            padding: 15px;
+        }
+        .nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .nav li {
+            margin: 15px 0;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .nav a:hover {
+            color: #007bff;
+        }
+        .content { /* Conteúdo principal */
+            flex: 1; /* Faz o conteúdo ocupar o espaço restante */
+            padding: 20px;
+        }
+        .footer {
+            background-color: #d0d0d0;
+            text-align: center;
+            padding: 15px;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <img src="./imagens/clinica-principal.png" alt="Clínica Saúde Total">
+        </header>
+
+        <div class="main-content">
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Página Principal</a></li>
+                    <li><a href="sobre.html">Sobre a Clínica</a></li>
+                    <li><a href="horarios.html">Horário de Atendimento</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+            <main class="content">
+                <h1>Bem-vindos à Clínica Saúde Total</h1>
+                <p>A <strong>Clínica Saúde Total</strong> é referência em atendimento médico de qualidade, oferecendo cuidados especializados para toda a família há mais de 15 anos.</p>
+                <p>Nossa missão é proporcionar <em>saúde e bem-estar</em> através de um atendimento humanizado, com profissionais altamente qualificados e equipamentos de última geração.</p>
+                
+                <h2>Por que escolher a Clínica Saúde Total?</h2>
+                <ul>
+                    <li>✅ Equipe médica especializada</li>
+                    <li>✅ Atendimento personalizado</li>
+                    <li>✅ Tecnologia de ponta</li>
+                    <li>✅ Ambiente acolhedor</li>
+                    <li>✅ Convênios com os principais planos de saúde</li>
+                </ul>
+                
+                <p><mark>Agende sua consulta hoje mesmo!</mark> Estamos prontos para cuidar da sua saúde com todo carinho e profissionalismo.</p>
+            </main>
+        </div>
+
+        <footer class="footer">
+            <p><strong>Clínica Saúde Total</strong></p>
+            <p>📞 (11) 3456-7890 | 📱 (11) 98765-4321</p>
+            <p>📧 contato@saudetotal.com.br</p>
+            <p>📍 Rua das Flores, 123 - Centro - São Paulo/SP</p>
+        </footer>
+    </div>
+</body>
+</html>

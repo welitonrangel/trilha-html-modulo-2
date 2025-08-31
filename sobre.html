@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Saúde Total - Sobre Nós</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .wrapper { /* Um contêiner para centralizar o layout */
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: #e0e0e0;
+            height: 200px;
+            text-align: center;
+        }
+        .header img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .main-content { /* Container para o menu e o conteúdo */
+            display: flex;
+        }
+        .nav { /* Antigo .menu */
+            width: 200px;
+            background-color: #f0f0f0;
+            padding: 15px;
+        }
+        .nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .nav li {
+            margin: 15px 0;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .nav a:hover {
+            color: #007bff;
+        }
+        .content { /* Conteúdo principal */
+            flex: 1; /* Faz o conteúdo ocupar o espaço restante */
+            padding: 20px;
+        }
+        .footer {
+            background-color: #d0d0d0;
+            text-align: center;
+            padding: 15px;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <img src="./imagens/sobre-nos.png" alt="Nossa História">
+        </header>
+
+        <div class="main-content">
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Página Principal</a></li>
+                    <li><a href="sobre.html">Sobre a Clínica</a></li>
+                    <li><a href="horarios.html">Horário de Atendimento</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+            <main class="content">
+                <h1>Sobre a Clínica Saúde Total</h1>
+                
+                <h2>Nossa História</h2>
+                <p>Fundada em <strong>2008</strong>, a Clínica Saúde Total nasceu do sonho de um grupo de médicos em oferecer atendimento médico de excelência em um ambiente acolhedor e humanizado.</p>
+                <p>Ao longo dos anos, expandimos nossos serviços e hoje contamos com uma equipe multidisciplinar composta por mais de <em>20 profissionais especializados</em> em diferentes áreas da medicina.</p>
+                
+                <h2>Nossa Missão</h2>
+                <blockquote>
+                    <p><strong>"Proporcionar cuidados médicos de qualidade, com foco no bem-estar integral do paciente, utilizando tecnologia avançada e atendimento humanizado."</strong></p>
+                </blockquote>
+                
+                <h2>Nossos Valores</h2>
+                <ul>
+                    <li><strong>Ética:</strong> Transparência e integridade em todas as nossas ações</li>
+                    <li><strong>Qualidade:</strong> Excelência no atendimento e nos serviços prestados</li>
+                    <li><strong>Humanização:</strong> Tratamento respeitoso e empático com cada paciente</li>
+                    <li><strong>Inovação:</strong> Investimento constante em tecnologia e capacitação</li>
+                    <li><strong>Responsabilidade Social:</strong> Compromisso com a comunidade</li>
+                </ul>
+                
+                <h2>Especialidades Médicas</h2>
+                <p>Oferecemos atendimento nas seguintes especialidades:</p>
+                <ol>
+                    <li>Clínica Geral</li>
+                    <li>Psicologia</li>
+                    <li>Pediatria</li>
+                    <li>Oftalmologia</li>
+                    <li>Cardiologia</li>
+                    <li>Dermatologia</li>
+                </ol>
+                
+                <p><small>Todos os nossos profissionais são certificados pelos respectivos conselhos de classe e participam regularmente de programas de educação continuada.</small></p>
+            </main>
+        </div>
+
+        <footer class="footer">
+            <p><strong>Clínica Saúde Total</strong></p>
+            <p>📞 (11) 3456-7890 | 📱 (11) 98765-4321</p>
+            <p>📧 contato@saudetotal.com.br</p>
+            <p>📍 Rua das Flores, 123 - Centro - São Paulo/SP</p>
+        </footer>
+    </div>
+</body>
+</html>

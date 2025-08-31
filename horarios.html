@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Saúde Total - Horários</title>
+    <style>
+        /* ESTILOS GERAIS DO TEMPLATE */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .wrapper {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: #e0e0e0;
+            height: 200px;
+            text-align: center;
+        }
+        .header img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .main-content {
+            display: flex;
+        }
+        .nav {
+            width: 200px;
+            background-color: #f0f0f0;
+            padding: 15px;
+        }
+        .nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .nav li {
+            margin: 15px 0;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .nav a:hover {
+            color: #007bff;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+        .footer {
+            background-color: #d0d0d0;
+            text-align: center;
+            padding: 15px;
+            border-top: 1px solid #ccc;
+        }
+
+        /* ESTILOS ESPECÍFICOS PARA A TABELA DE HORÁRIOS */
+        .horarios-table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse; /* Adicionado para garantir que as bordas se unam */
+        }
+        .horarios-table th,
+        .horarios-table td {
+            border: 1px solid #ddd; /* Borda mais suave */
+            padding: 12px;
+            text-align: center;
+        }
+        .horarios-table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .horarios-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <img src="./imagens/horarios.png" alt="Relógio indicando os horários de atendimento">
+        </header>
+
+        <div class="main-content">
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Página Principal</a></li>
+                    <li><a href="sobre.html">Sobre a Clínica</a></li>
+                    <li><a href="horarios.html">Horário de Atendimento</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+            <main class="content">
+                <h1>Horários de Atendimento</h1>
+                
+                <p>Nossa clínica funciona com horários diferenciados para melhor atender nossos pacientes. Oferecemos consultas e exames em diversos horários para sua comodidade.</p>
+                
+                <h2>Nossos Serviços</h2>
+                <p>Contamos com uma equipe especializada para oferecer os melhores cuidados médicos:</p>
+                <ul>
+                    <li><strong>Clínica Geral:</strong> Atendimento médico geral para toda a família</li>
+                    <li><strong>Psicologia:</strong> Acompanhamento psicológico individual e familiar</li>
+                    <li><strong>Pediatria:</strong> Cuidados especializados para crianças e adolescentes</li>
+                    <li><strong>Oftalmologia:</strong> Consultas e exames oftalmológicos completos</li>
+                </ul>
+                
+                <h2>Tabela de Horários por Especialidade</h2>
+                
+                <table class="horarios-table">
+                    <thead>
+                        <tr>
+                            <th>Serviços</th>
+                            <th>Segunda a Sexta</th>
+                            <th>Sábados</th>
+                            <th>Feriados</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Clínica Geral</strong></td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 14h</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Psicologia</strong></td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 14h</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Pediatria</strong></td>
+                            <td>08h - 19h</td>
+                            <td>08h - 18h</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Oftalmologia</strong></td>
+                            <td>08h - 19h</td>
+                            <td>08h - 18h</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>Informações Importantes:</h3>
+                <ul>
+                    <li>📅 <strong>Agendamento:</strong> Recomendamos agendar com antecedência</li>
+                    <li>⏰ <strong>Chegada:</strong> Chegue 15 minutos antes da consulta</li>
+                    <li>🆔 <strong>Documentos:</strong> Traga RG, CPF e cartão do convênio</li>
+                    <li>🚨 <strong>Emergências:</strong> Para urgências, procure nosso pronto atendimento</li>
+                </ul>
+            </main>
+        </div>
+
+        <footer class="footer">
+            <p><strong>Clínica Saúde Total</strong></p>
+            <p>📞 (11) 3456-7890 | 📱 (11) 98765-4321</p>
+            <p>📧 contato@saudetotal.com.br</p>
+            <p>📍 Rua das Flores, 123 - Centro - São Paulo/SP</p>
+        </footer>
+    </div>
+</body>
+</html>
